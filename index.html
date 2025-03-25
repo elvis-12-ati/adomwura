@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdomWura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Logo -->
+    <header>
+        <img src="logo.png" alt="AdomWura Logo" class="logo">
+        <h1>Welcome to AdomWura</h1>
+    </header>
+
+    <!-- Video Descriptions Section -->
+    <section id="videos">
+        <h2>Video Descriptions</h2>
+        <ul>
+            <li><a href="video1-description.pdf" download>Video 1 Description</a></li>
+            <li><a href="video2-description.txt" download>Video 2 Description</a></li>
+            <!-- Add more as needed -->
+        </ul>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order">
+        <h2>Order a Product</h2>
+        <form id="orderForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required><br>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea><br>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
